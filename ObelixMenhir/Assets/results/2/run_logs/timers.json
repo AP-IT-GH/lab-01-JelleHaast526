@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1773228264",
+        "python_version": "3.9.18 (main, Sep 11 2023, 14:09:26) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Jelle\\miniconda3\\envs\\UnityEnv\\Scripts\\mlagents-learn config/CubeAgentRays.yaml --run-id=2 --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1773228282"
+    },
+    "total": 17.8648983,
+    "count": 1,
+    "self": 0.015800900000002116,
+    "children": {
+        "run_training.setup": {
+            "total": 0.18710950000000004,
+            "count": 1,
+            "self": 0.18710950000000004
+        },
+        "TrainerController.start_learning": {
+            "total": 17.6619879,
+            "count": 1,
+            "self": 0.00019269999999238507,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 15.700722900000002,
+                    "count": 1,
+                    "self": 15.700722900000002
+                },
+                "trainer_threads": {
+                    "total": 9.000000034120603e-07,
+                    "count": 1,
+                    "self": 9.000000034120603e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.9610714000000016,
+                    "count": 1,
+                    "self": 0.040674700000000286,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 1.9203967000000013,
+                            "count": 1,
+                            "self": 1.9203967000000013
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
