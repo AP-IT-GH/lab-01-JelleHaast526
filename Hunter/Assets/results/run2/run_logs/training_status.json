@@ -1,0 +1,51 @@
+{
+    "EvilAgent": {
+        "checkpoints": [
+            {
+                "steps": 336999,
+                "file_path": "results\\run2\\EvilAgent\\EvilAgent-336999.onnx",
+                "reward": null,
+                "creation_time": 1774812841.2623336,
+                "auxillary_file_paths": [
+                    "results\\run2\\EvilAgent\\EvilAgent-336999.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 336999,
+            "file_path": "results\\run2\\EvilAgent.onnx",
+            "reward": null,
+            "creation_time": 1774812841.2623336,
+            "auxillary_file_paths": [
+                "results\\run2\\EvilAgent\\EvilAgent-336999.pt"
+            ]
+        }
+    },
+    "GrabberAgent": {
+        "checkpoints": [
+            {
+                "steps": 336999,
+                "file_path": "results\\run2\\GrabberAgent\\GrabberAgent-336999.onnx",
+                "reward": null,
+                "creation_time": 1774812841.3854103,
+                "auxillary_file_paths": [
+                    "results\\run2\\GrabberAgent\\GrabberAgent-336999.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 336999,
+            "file_path": "results\\run2\\GrabberAgent.onnx",
+            "reward": null,
+            "creation_time": 1774812841.3854103,
+            "auxillary_file_paths": [
+                "results\\run2\\GrabberAgent\\GrabberAgent-336999.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
